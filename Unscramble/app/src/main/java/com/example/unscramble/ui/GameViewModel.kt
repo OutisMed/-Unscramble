@@ -14,5 +14,5 @@ class GameViewModel:ViewModel() {
     val count: Int
         get() = _count
 
-
+    private lateinit var currentWord: String
 }
